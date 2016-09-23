@@ -1,0 +1,22 @@
+{
+  "name": "Phax",
+  "version": "0.0.1",
+  "description": "Phax",
+  "main": "''",
+  "scripts": {
+    "build": "NODE_ENV=production webpack -p --config webpack.production.config.js --progress --profile --colors",
+    "dev": "webpack-dev-server --progress --profile --colors --hot"
+  },
+  "author": "Kamil Zagrabski",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "",
+    "babel-loader": "",
+    "babel-preset-es2015": "",
+    "babel-preset-react": "",
+    "pixi.js": "",
+    "webpack": "",
+    "webpack-dev-server": ""
+  }
+}
